@@ -8,3 +8,11 @@ print(type(b))
 #Checking the dimensions
 print(a.ndim)
 print(b.ndim)
+#Checking the byte size of each of the element
+print(a.itemsize)
+#checking the datatype of an element
+print(a.dtype)
+#Checking the size of an array
+print(a.size)
+#Columns and rows
+print(a.shape)
