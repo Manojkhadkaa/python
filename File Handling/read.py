@@ -3,4 +3,4 @@ f= open("demo.txt", 'r')
 #print(f.readline(3))
 #print(f.readlines())
 for line in f:
-    print(f.readline())
+    print(f.read())
